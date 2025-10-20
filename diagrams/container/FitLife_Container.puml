@@ -19,7 +19,7 @@ Container_Boundary(FitLifeSystem, "FitLife System") {
 System_Ext(api, "Third-Party API", "External API for fitness data integration")
 System_Ext(bank, "Bank System", "External bank for processing payments")
 
-Rel(user, WebApp, "Uses the system")
+Rel(user, WebApp, "Uses the system1")
 Rel(admin, WebApp,"Manages the system")
 Rel(WebApp,PaymentService,"Processes payment requests")
 Rel(PaymentService,bank,"Processes payments")
